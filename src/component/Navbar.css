@@ -1,0 +1,85 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 2%;
+  }
+  
+  .logo--menu{
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo--menu a{
+    text-decoration: none;
+  }
+  
+  .logo--menu--logoName{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .logo--menu--menuImg{
+    padding: 5%;
+    margin-right: 15%;
+    cursor: pointer;
+  }
+  
+  .logo--menu--menuImg:hover{
+    background-color: #272727;
+    border-radius: 50%;
+  }
+  
+  .search--div{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .search--input{
+    border: solid 1px #272727;
+    padding: 5%;
+    outline: none;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+  }
+  
+  .clearButton{
+    border: none;
+    margin-left: -10%;
+    margin-right: 5%;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+  }
+  
+  .searchButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #272727;
+    padding: 3%;
+    border: solid 1px #272727;
+    cursor: pointer;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .user--div{
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+  }
+  
+  .user--div img{
+    padding-right: 25%;
+    cursor: pointer;
+  }
+  
+  .user--profilePicture{
+    border-radius: 50%;
+    width: 24px;
+  }
