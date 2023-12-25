@@ -2,7 +2,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1% 2%;
+    margin: 1vh 2vw;
+    height: 5vh;
   }
   
   .logo--menu{
@@ -21,13 +22,11 @@ nav{
   }
   
   .logo--menu--menuImg{
-    padding: 5%;
     margin-right: 15%;
     cursor: pointer;
   }
   
   .logo--menu--menuImg:hover{
-    background-color: #272727;
     border-radius: 50%;
   }
   

@@ -6,7 +6,7 @@ import bell from "../images/icons8-bell-24.png"
 import profilePicture from "../images/icons8-male-user-24.png"
 import "./Navbar.css"
 
-function Navbar() {
+function Navbar(props) {
   const [search, setSearch] = React.useState("");
 
   function changeSearch(event) {
@@ -22,6 +22,7 @@ function Navbar() {
       <div className="logo--menu">
         <img
           src={hamburgerMenu}
+          onClick={props.toggle}
           alt="hamburgerMenu"
           className="logo--menu--menuImg"
         />
@@ -60,36 +61,36 @@ function Navbar() {
           >
             <g
               fill="#272727"
-              fill-rule="nonzero"
-              stroke="none"
-              stroke-width="1"
-              stroke-linecap="butt"
-              stroke-linejoin="miter"
-              stroke-miterlimit="10"
-              stroke-dasharray=""
-              stroke-dashoffset="0"
-              font-family="none"
-              font-weight="none"
-              font-size="none"
-              text-anchor="none"
+              //fill-rule="nonzero"
+              //stroke="none"
+              //stroke-width="1"
+              //stroke-linecap="butt"
+              //stroke-linejoin="miter"
+              //stroke-miterlimit="10"
+              //stroke-dasharray=""
+              //stroke-dashoffset="0"
+              //font-family="none"
+              //font-weight="none"
+              //font-size="none"
+              //text-anchor="none"
               //style="mix-blend-mode: normal"
             >
               <path d="M0,256v-256h256v256z" id="bgRectangle"></path>
             </g>
             <g
               fill="#918c8c"
-              fill-rule="nonzero"
-              stroke="none"
-              stroke-width="1"
-              stroke-linecap="butt"
-              stroke-linejoin="miter"
-              stroke-miterlimit="10"
-              stroke-dasharray=""
-              stroke-dashoffset="0"
-              font-family="none"
-              font-weight="none"
-              font-size="none"
-              text-anchor="none"
+              //fill-rule="nonzero"
+              //stroke="none"
+              //stroke-width="1"
+              //stroke-linecap="butt"
+              //stroke-linejoin="miter"
+              //stroke-miterlimit="10"
+              //stroke-dasharray=""
+              //stroke-dashoffset="0"
+              //font-family="none"
+              //font-weight="none"
+              //font-size="none"
+              //text-anchor="none"
               //style="mix-blend-mode: normal"
             >
               <g transform="scale(5.12,5.12)">
