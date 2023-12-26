@@ -4,4 +4,11 @@
 
 main{
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-active{
+    padding-left: 5vw;
+    transition: 0.5s;
 }

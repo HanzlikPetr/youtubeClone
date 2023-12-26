@@ -17,7 +17,7 @@ function Sidebar({ isOpen }) {
           //style="fill:#FFFFFF;"
         >
           <g
-            fill-opacity="0"
+            //fill-opacity="0"
             fill="#272727"
             //fill-rule="nonzero"
             //stroke="none"

@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Navbar from './component/Navbar';
 import Sidebar from './component/sidebar';
+import data from './data';
+import Video from './component/Video';
 
 
 
@@ -12,15 +14,16 @@ function App() {
         isOpen === true ? setIsopen(false) : setIsopen(true);
     }
 
-    console.log(isOpen)
+    const videos = data.map(e => <Video key= {e.id} {...e}/>) 
 
   return (
     <div className="App">
       <Navbar toggle={ToggleSidebar}/>
-      <main>
+      <main className= {isOpen ? "main-active" : ""}>
         <Sidebar 
           isOpen={isOpen}
         />
+        {videos}
       </main>
     </div>
   );
